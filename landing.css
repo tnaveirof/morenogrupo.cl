@@ -4,3 +4,12 @@
 .choice{justify-content:flex-start}
 .choice .small-rule{margin-top:4px}
 @media(max-width:650px){.choice-logo{max-width:230px;height:115px;margin-bottom:6px}}
+
+/* CTA principal centrado */
+.main-site-cta{display:flex;justify-content:center;align-items:center;margin:34px auto 38px;text-align:center;width:100%;}
+.main-site-cta .corporate-featured{display:inline-flex;align-items:center;justify-content:center;gap:13px;background:#087dbb;color:#fff;border:1px solid #087dbb;border-radius:7px;padding:17px 32px;font-weight:700;letter-spacing:.09em;text-decoration:none;box-shadow:0 8px 22px rgba(0,100,170,.18);transition:transform .2s ease,box-shadow .2s ease,background .2s ease;max-width:calc(100% - 32px);box-sizing:border-box;}
+.main-site-cta .corporate-featured:hover{transform:translateY(-3px);background:#05699f;box-shadow:0 12px 25px rgba(0,100,170,.25);}
+@media(max-width:600px){.main-site-cta{margin:24px auto 28px}.main-site-cta .corporate-featured{padding:15px 20px;font-size:12px;}}
+
+.main-site-cta .corporate-featured{border:2px solid #55ddff;box-shadow:0 0 0 1px rgba(13,151,223,.8),0 0 9px rgba(0,194,255,.85),0 0 21px rgba(0,165,255,.55),0 8px 22px rgba(0,100,170,.18)}
+.main-site-cta .corporate-featured:hover,.main-site-cta .corporate-featured:focus-visible{box-shadow:0 0 0 2px rgba(95,230,255,.9),0 0 15px rgba(0,204,255,.95),0 0 30px rgba(0,165,255,.75),0 12px 25px rgba(0,100,170,.25)}
