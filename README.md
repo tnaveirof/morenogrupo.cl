@@ -1,0 +1,1 @@
+Abrir index.html para comenzar por la portada. Cambios: galería Proyectos destacados 30% más baja (390 a 273 px en escritorio), imagen horizontal hero.jpg retirada del carrusel. Todo lo demás permanece igual.

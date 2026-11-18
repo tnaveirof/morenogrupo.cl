@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');:root{--blue:#1379b7;--navy:#072944;--ink:#171b20;--muted:#535d65;--pale:#f5f7f9}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Montserrat,Arial,sans-serif;font-size:14px;line-height:1.65}a{text-decoration:none;color:inherit}img{max-width:100%;display:block}.container{width:min(1180px,calc(100% - 64px));margin:auto}.header{background:white;position:sticky;top:0;z-index:20;box-shadow:0 2px 12px #0000000c}.nav{min-height:91px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:8px;color:#536978}.brand-mark,.company-m{font-size:54px;font-weight:800;line-height:.9;letter-spacing:-10px;background:linear-gradient(125deg,#0b4d7d 40%,#44c3d0 80%);color:transparent;background-clip:text;padding-right:12px}.brand-name{font-size:19px;font-weight:500;letter-spacing:2px;line-height:1.1}.brand-name small,.company-name small{display:block;font-size:8px;letter-spacing:4px;text-align:center}.nav-links{display:flex;align-items:center;gap:22px}.nav-links>a:not(.btn){font-size:10px;font-weight:700}.nav-links>a:hover{color:var(--blue)}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 21px;border-radius:1px;font-size:10px;letter-spacing:.2px;font-weight:700;line-height:1.2;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--blue);color:white}.btn-outline{border:1px solid #ffffff9e;color:white}.btn-border{border:1px solid var(--blue);color:var(--blue)}.menu-toggle{display:none}.hero{min-height:590px;position:relative;background:url('assets/hero.jpg') center 48%/cover no-repeat;color:white;display:flex;align-items:center}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,17,29,.91) 0%,rgba(4,17,29,.72) 37%,rgba(4,17,29,.06) 85%)}.hero-content{position:relative;z-index:1;padding:75px 0}.eyebrow,.section-kicker{font-size:11px;font-weight:700;color:var(--blue);line-height:1.45}.hero .eyebrow{color:#42b5e8}.hero h1{font-size:clamp(38px,5vw,69px);line-height:1.06;letter-spacing:-2px;margin:28px 0 22px;font-weight:700}.hero h1 em{font-style:normal;color:#3097d0}.hero-description{max-width:440px;font-size:13px}.actions{display:flex;gap:12px;margin-top:27px}.down{position:absolute;bottom:13px;left:50%;font-size:33px;color:#39a6e1}.section{padding:82px 0}.split{display:grid;grid-template-columns:1fr 1.1fr;gap:80px;align-items:center}.split h2,.section h2,.reasons h2,.contact h2{font-size:clamp(26px,2.5vw,37px);line-height:1.2;font-weight:500;letter-spacing:-1.1px;margin:10px 0 24px}.split h2 span,.section h2 span,.reasons h2 span,.contact h2 span{color:var(--blue)}.split p:not(.section-kicker){color:#3f454b;font-size:12px}.split img{width:100%;height:410px;object-fit:cover}.split .btn{margin-top:15px}.services{background:var(--pale)}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin:30px 0}.service-card{background:#fff;position:relative;box-shadow:0 4px 15px #00000008}.service-card>img{width:100%;height:170px;object-fit:cover}.service-icon{background:#0866a1;color:white;font-size:27px;width:55px;height:55px;display:grid;place-items:center;position:relative;margin:-27px 0 0 20px;border:4px solid white}.service-body{padding:16px 21px 25px}.service-body h3{font-size:14px;line-height:1.3;margin:0 0 12px}.service-body p{font-size:12px;color:#4e5459;margin:0}.center{text-align:center}.projects{background:#181a1d;color:white;padding:55px 0}.project-row{display:grid;grid-template-columns:240px 1fr;gap:25px;align-items:center;position:relative}.project-intro h2{font-size:30px}.project-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.project-gallery img{width:100%;height:220px;object-fit:cover}.gallery-buttons{position:absolute;right:0;bottom:-42px;display:flex;gap:9px}.gallery-buttons button{border:1px solid #888;background:transparent;color:white;border-radius:50%;width:30px;height:30px;cursor:pointer}.companies{background:#f8f9fb}.company-row{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:45px;align-items:center}.company{text-align:center;border-left:1px solid #e3e6ea;padding:20px}.company-m{font-size:85px;display:inline-block}.company-m.turquoise{background:linear-gradient(125deg,#1575a5,#2ed2d1);color:transparent;background-clip:text}.company-name{font-size:25px;letter-spacing:3px;color:#737b81;line-height:1.1;margin-bottom:15px}.company-name small{font-size:9px}.reasons{background:#062847;color:white;padding:40px 0}.reasons-row{display:grid;grid-template-columns:1.6fr repeat(5,1fr);gap:22px;align-items:center}.reasons h2{font-size:26px;margin-bottom:0}.reasons h2 span{color:#45b5e7}.reason{text-align:center;font-size:11px;font-weight:600;line-height:1.5}.reason b{display:block;font-size:37px;color:#83b8d6;font-weight:400;margin-bottom:7px}.contact{background:linear-gradient(90deg,#082f50ed,#0c3558c9),url('assets/fondo-contacto-cordillera.jpeg') center/cover;color:white;padding:55px 0}.contact-row{display:flex;justify-content:space-between;gap:40px}.contact h2{font-size:32px}.contact h2 span{color:#50b7e6}.contact-details{min-width:270px}.contact-details p{margin:8px 0}.note{font-size:10px;color:#b8c6d3;max-width:300px}.footer{background:#151719;color:#ddd;padding:23px 0}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:25px}.footer p,.footer a:last-child{font-size:10px}.footer-brand .brand-mark{font-size:35px}.footer-brand .brand-name{font-size:13px}.footer-brand .brand-name small{font-size:6px}@media(max-width:900px){.nav{min-height:74px}.menu-toggle{display:block;background:none;border:0;font-size:28px;color:#164d70;cursor:pointer}.nav-links{display:none;position:absolute;top:74px;left:0;right:0;background:white;flex-direction:column;align-items:stretch;padding:25px 32px;box-shadow:0 10px 20px #0002}.nav-links.open{display:flex}.split{gap:35px}.service-grid{grid-template-columns:repeat(2,1fr)}.company-row{gap:10px}.reasons-row{grid-template-columns:repeat(3,1fr)}.reasons-row>div:first-child{grid-column:span 3;text-align:center}.project-row{grid-template-columns:1fr}.project-gallery img{height:190px}}@media(max-width:600px){.container{width:calc(100% - 36px)}.hero{min-height:590px}.hero h1{font-size:40px}.hero-shade{background:linear-gradient(90deg,#081724ed,#0817249c)}.section{padding:55px 0}.split,.company-row{grid-template-columns:1fr}.split img{height:300px}.service-grid{gap:13px}.service-card>img{height:120px}.service-body{padding:13px}.service-body h3{font-size:11px}.service-body p{font-size:10px}.project-gallery{grid-template-columns:repeat(2,1fr)}.project-gallery img{height:165px}.project-gallery img:last-child{display:none}.company{border-left:0;border-top:1px solid #ddd}.reasons-row{grid-template-columns:repeat(2,1fr)}.reasons-row>div:first-child{grid-column:span 2}.contact-row,.footer-row{flex-direction:column;align-items:flex-start}.footer-row{gap:10px}}
+.brand-logo{width:122px;height:65px;object-fit:contain}.hero{background-image:url('assets/portada-collage.jpg')}.company-details{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:32px}.company-detail{background:white;padding:30px;box-shadow:0 5px 20px #0000000a}.company-detail h3{color:#126e9f;font-size:21px;margin-top:0}.company-detail p{font-size:12px}.company-detail .btn{margin-top:10px}@media(max-width:700px){.company-details{grid-template-columns:1fr}.brand-logo{width:100px;height:54px}}
+
+/* Nuestra historia */
+.history-section{background:#f8fafc}.history-heading{text-align:center;max-width:750px;margin:0 auto 45px}.history-heading p:last-child{color:#66717e}.history-timeline{max-width:850px;margin:auto;border-left:2px solid #d9e6f1;padding-left:32px}.history-timeline article{position:relative;padding:0 0 28px}.history-timeline article:before{content:"";position:absolute;left:-41px;top:5px;width:15px;height:15px;border-radius:50%;background:#1263a4;border:3px solid #fff;box-shadow:0 0 0 2px #d9e6f1}.history-timeline small{color:#1263a4;font-weight:800;letter-spacing:1px}.history-timeline h3{margin:8px 0}.history-timeline p{margin:0;color:#56606b;line-height:1.8}.history-quote{max-width:800px;text-align:center;margin:24px auto;font-style:italic;font-weight:600}.history-details{max-width:850px;margin:30px auto 0}.history-details summary{cursor:pointer;list-style:none;border:1px solid #1263a4;color:#1263a4;text-align:center;padding:15px 22px;border-radius:6px;font-weight:700}.history-details summary::-webkit-details-marker{display:none}.history-details summary span{margin-left:10px}.history-full{padding:24px 4px;line-height:1.85}.history-full p{margin-bottom:16px}.footer{background:linear-gradient(90deg,#fff 0%,#ececec 28%,#6b6b6b 62%,#090909 100%)!important}.footer-row p{color:#242424}.footer-row>a:last-child{color:#fff}@media(max-width:700px){.history-timeline{padding-left:25px}.history-timeline article:before{left:-34px}.footer-row p{color:#fff;text-shadow:0 1px 4px #333}}
+
+/* Historia compacta: contenido accesible al desplegar */
+.history-section{padding:24px 0!important}
+.history-heading{margin:0 auto 12px;max-width:700px}
+.history-heading .section-kicker{font-size:10px;margin:0 0 4px}
+.history-heading h2{font-size:clamp(22px,2.5vw,30px);margin:0 0 4px}
+.history-heading p:last-child{font-size:12px;margin:0}
+.history-details{margin:8px auto 0;max-width:480px}
+.history-details summary{padding:10px 16px;font-size:11px}
+.history-details[open]{max-width:850px}
+.history-details[open] summary span{display:inline-block;transform:rotate(45deg)}
+.history-expanded{padding-top:32px}
+@media(max-width:600px){.history-section{padding:20px 0!important}.history-heading p:last-child{font-size:11px}}
+
+/* Áreas de desempeño de Moreno Arquitectura Médica */
+.areas-section{background:#fff}.areas-intro{text-align:center;max-width:760px;margin:0 auto 32px}.areas-intro>p:last-child{color:#65717e;font-size:13px}.areas-list{max-width:960px;margin:auto;display:grid;gap:12px}.area-card{border:1px solid #dfe8ef;border-radius:10px;background:#fff;overflow:hidden;transition:box-shadow .2s}.area-card[open]{box-shadow:0 10px 28px #092f4a12}.area-card summary{list-style:none;display:flex;align-items:center;gap:18px;padding:19px 22px;cursor:pointer}.area-card summary::-webkit-details-marker{display:none}.area-number{flex:0 0 48px;width:48px;height:48px;display:grid;place-items:center;border-radius:9px;background:#eaf4fa;color:#1379b7;font-weight:800;font-size:17px}.area-heading{flex:1;display:grid;gap:3px}.area-heading strong{font-size:14px;color:#152d40}.area-heading small{font-size:12px;color:#65717e}.area-chevron{font-size:23px;color:#1379b7;line-height:1}.area-card[open] .area-chevron{transform:rotate(45deg)}.area-description{border-top:1px solid #edf0f3;padding:18px 25px 21px 88px;color:#46535d;font-size:13px;line-height:1.8}.area-description p{margin:0 0 12px}.area-description p:last-child{margin-bottom:0}@media(max-width:600px){.area-card summary{padding:15px 12px;gap:11px}.area-number{width:38px;height:38px;flex-basis:38px;font-size:13px}.area-heading strong{font-size:12px}.area-heading small{font-size:11px}.area-description{padding:15px 17px}}
+
+/* Servicios destacados */
+.featured-services{background:#f5f7fa}.featured-services h2{max-width:800px}.featured-lead{max-width:740px;color:#596473;line-height:1.7;margin:12px 0 30px}.featured-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:start}.featured-card{background:#fff;border:1px solid #e3e8ef;border-radius:17px;overflow:hidden;box-shadow:0 10px 30px rgba(19,39,65,.07)}.featured-card>img{width:100%;height:190px;object-fit:cover;display:block}.featured-card-body{padding:24px}.featured-index{font-size:11px;letter-spacing:2px;font-weight:800;color:#2675a7}.featured-card h3{font-size:22px;line-height:1.25;margin:10px 0}.featured-card p{line-height:1.65}.featured-details{margin:20px 0}.featured-details summary{cursor:pointer;display:flex;justify-content:space-between;gap:12px;padding:13px 0;border-top:1px solid #e5eaf0;border-bottom:1px solid #e5eaf0;color:#1b6c9d;font-size:12px;font-weight:800;letter-spacing:.8px;list-style:none}.featured-details summary::-webkit-details-marker{display:none}.featured-details[open] summary span{transform:rotate(45deg)}.featured-full{padding-top:15px;max-height:450px;overflow:auto;font-size:14px;color:#384354}.featured-full h4{font-size:15px;color:#172b42;margin:17px 0 8px}.featured-full p{margin:0 0 12px}.featured-full ul{padding-left:19px;margin:0 0 14px}.featured-full li{margin:0 0 7px;line-height:1.6}.featured-cta{display:inline-flex;text-align:center;justify-content:center;width:100%;font-size:12px!important}@media(max-width:850px){.featured-grid{grid-template-columns:1fr}.featured-card>img{height:210px}}
+
+/* Botiquín: mostrar la imagen completa, sin recortes, en todos los tamaños. */
+.featured-card:first-child > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
+}
+@media (max-width: 850px) {
+  .featured-card:first-child > img { height: auto; }
+}
+
+/* Mostrar el plano completo dentro de la tarjeta Informe de Viabilidad */
+.featured-card img.viabilidad-plano { object-fit: contain !important; object-position: center !important; background: #fff; }
+
+/* Imagen completa del servicio Permiso de Edificación y Recepción Definitiva */
+.featured-card > img.permiso-imagen { object-fit: contain; object-position: center; background: #f5f2ee; }
+
+/* Banner final Moreno Grupo: fondo transparente */
+.footer { background: transparent !important; }
+.footer-row p { color: #242424; }
+.footer-row > a:last-child { color: #242424; }
+
+/* Servicios destacados: armonización sin alterar identidad corporativa */
+.featured-grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:24px;
+  align-items:stretch;
+}
+.featured-card {
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+  border-radius:17px;
+  overflow:hidden;
+  transition:box-shadow .2s ease,transform .2s ease;
+}
+.featured-card:hover {box-shadow:0 16px 34px rgba(19,39,65,.11);transform:translateY(-3px)}
+.featured-card > img,
+.featured-card:first-child > img,
+.featured-card > img.viabilidad-plano,
+.featured-card > img.permiso-imagen {
+  width:100% !important;
+  height:245px !important;
+  min-height:245px;
+  padding:14px;
+  object-fit:contain !important;
+  object-position:center center !important;
+  background:#fff !important;
+  border-bottom:1px solid #edf1f5;
+  flex:none;
+}
+.featured-card-body {
+  display:flex;
+  flex-direction:column;
+  flex:1;
+  padding:23px 23px 24px;
+}
+.featured-card h3 {font-size:clamp(17px,1.45vw,20px);line-height:1.32;margin:11px 0 9px;min-height:2.65em}
+.featured-card-body > p {font-size:12.5px;line-height:1.65;color:#4d5965;margin:0;min-height:3.3em}
+.featured-details {margin:19px 0 19px}
+.featured-cta {margin-top:auto;min-height:44px}
+@media (max-width:900px) and (min-width:651px) {
+ .featured-grid {grid-template-columns:repeat(2,minmax(0,1fr))}
+ .featured-card:last-child {grid-column:1/-1;max-width:calc(50% - 12px);width:100%;justify-self:center}
+}
+@media (max-width:650px) {
+ .featured-grid {grid-template-columns:1fr;gap:20px}
+ .featured-card:last-child {grid-column:auto;max-width:none}
+ .featured-card > img,.featured-card:first-child > img,.featured-card > img.viabilidad-plano,.featured-card > img.permiso-imagen {height:245px !important;min-height:245px;padding:12px}
+ .featured-card h3,.featured-card-body > p {min-height:0}
+ .featured-card-body {padding:20px}
+}
+
+/* Interacción sutil en fotografías de Proyectos destacados */
+.project-gallery .project-photo { overflow: hidden; position: relative; background: #22262a; }
+.project-gallery .project-photo img { display: block; width: 100%; transition: transform .48s cubic-bezier(.2,.7,.2,1); transform-origin: center center; will-change: transform; }
+@media (hover: hover) and (pointer: fine) { .project-gallery .project-photo:hover img { transform: scale(1.055); } }
+@media (prefers-reduced-motion: reduce) { .project-gallery .project-photo img { transition: none; } }
+
+
+
+/* MORENO GRUPO — líneas neón solo desde la mitad inferior de la página.
+   Brillo reducido 40 % respecto a la versión intensa (60 % de intensidad).
+   Las clases neon-lower se asignan según la posición real de cada sección. */
+:root { --neon-blue:#00bfff; --neon-cyan:#a3f5ff; }
+main > section.neon-lower { position:relative; isolation:isolate; }
+main > section.neon-lower::before {
+  content:""; position:absolute; top:0; left:0; right:0; height:3px;
+  pointer-events:none; z-index:2; opacity:.60;
+  background:linear-gradient(90deg,transparent 0%,rgba(0,176,244,.22) 20%,#10c9ff 42%,#d2fcff 50%,#10c9ff 58%,rgba(0,176,244,.22) 80%,transparent 100%);
+  background-size:240% 100%; animation:moreno-neon-sweep 9s linear infinite;
+  box-shadow:0 0 4px rgba(0,198,255,.54),0 0 11px rgba(0,178,244,.45),0 0 19px rgba(0,170,250,.19);
+}
+main > section.neon-lower:nth-of-type(even)::before { animation-direction:reverse; animation-duration:11s; }
+@keyframes moreno-neon-sweep { from {background-position:110% 0} to {background-position:-110% 0} }
+main > section.neon-lower:not(#contacto)::after {
+  content:"";position:absolute;inset:9% auto 9% 0;width:2px;
+  pointer-events:none;z-index:1;opacity:.51;
+  background:linear-gradient(180deg,transparent,#43d8ff 28%,#ddfdff 50%,#43d8ff 72%,transparent);
+  box-shadow:0 0 7px rgba(0,191,255,.54),0 0 16px rgba(0,191,255,.24);
+  animation:moreno-side-pulse 5s ease-in-out infinite alternate;
+}
+main > section.neon-lower:nth-of-type(even):not(#contacto)::after {left:auto;right:0;animation-delay:-2s;}
+@keyframes moreno-side-pulse {from{opacity:.25}to{opacity:.60}}
+/* Solo tarjetas, botones y galería de la mitad inferior reciben brillo adicional. */
+.neon-lower .service-card:hover,.neon-lower .featured-card:hover,
+.neon-lower .company-detail:hover,.neon-lower .history-details:hover,.neon-lower .area-card:hover {
+ box-shadow:0 12px 30px rgba(0,72,115,.10),0 0 0 1px rgba(0,195,255,.45),0 0 12px rgba(0,196,255,.30);
+}
+.neon-lower .btn:hover,.neon-lower .featured-cta:hover {
+ box-shadow:0 0 0 1px rgba(170,249,255,.51),0 0 11px rgba(0,194,255,.43);
+}
+.neon-lower .project-photo:hover {box-shadow:0 0 0 1px rgba(0,194,255,.51),0 0 11px rgba(0,194,255,.33);}
+.neon-lower .project-photo::after {
+ content:"";position:absolute;bottom:0;left:0;right:0;height:2px;pointer-events:none;
+ background:linear-gradient(90deg,transparent,#35d7ff,#d5fbff,#35d7ff,transparent);
+ opacity:.51;box-shadow:0 0 7px rgba(0,200,255,.51);
+}
+.footer.neon-lower {position:relative;background:transparent!important}
+.footer.neon-lower::before {
+ content:"";position:absolute;top:0;left:0;right:0;height:2px;pointer-events:none;opacity:.60;
+ background:linear-gradient(90deg,transparent,#1bcfff,#d9fdff,#1bcfff,transparent);
+ box-shadow:0 0 6px rgba(0,197,255,.51),0 0 13px rgba(0,197,255,.24);
+}
+@media (prefers-reduced-motion:reduce) {
+ main > section.neon-lower::before,main > section.neon-lower::after {animation:none!important;}
+}
+
+/* Ajuste solicitado: galería de proyectos más alta, fotos verticales completas. */
+@media (min-width: 901px) {
+  .projects { padding: 82px 0 96px; }
+  .projects .project-row { grid-template-columns: 240px minmax(0,1fr); gap: 30px; }
+  .projects .project-gallery { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; }
+  .projects .project-photo { height: 273px; display:flex; align-items:center; justify-content:center; }
+  .projects .project-gallery .project-photo img { width:100%; height:100%; object-fit:contain; }
+  .projects .gallery-buttons { bottom:-52px; }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .projects .project-photo { height: 245px; display:flex; align-items:center; justify-content:center; }
+  .projects .project-gallery .project-photo img { width:100%; height:100%; object-fit:contain; }
+}
+@media (max-width: 600px) {
+  .projects .project-photo { height: 210px; display:flex; align-items:center; justify-content:center; }
+  .projects .project-gallery .project-photo img { width:100%; height:100%; object-fit:contain; }
+}
+
+
+/* Ajuste exclusivo de la galería Proyectos destacados:
+   sin fondos plomos, con iluminación ambiental sutil. */
+.projects .project-gallery .project-photo {
+  background: #181a1d;
+  border: 1px solid rgba(65, 170, 220, .13);
+  border-radius: 5px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .20);
+  isolation: isolate;
+  transition: border-color .35s ease, box-shadow .35s ease;
+}
+.projects .project-gallery .project-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 50% 60%, rgba(21, 122, 178, .14), transparent 75%);
+  z-index: -1;
+}
+@media (hover: hover) and (pointer: fine) {
+  .projects .project-gallery .project-photo:hover {
+    border-color: rgba(59, 174, 224, .65);
+    box-shadow: 0 0 0 1px rgba(45, 156, 208, .22),
+                0 0 20px rgba(29, 142, 205, .20),
+                0 10px 26px rgba(0, 0, 0, .24);
+  }
+}
+
+/* Propuesta editorial premium: galería vertical, sin recortes */
+.projects .project-gallery {gap:18px;}
+.projects .project-gallery .project-photo {
+ background:#111518!important; border:1px solid rgba(255,255,255,.09);
+ border-radius:2px; overflow:hidden; position:relative;
+ box-shadow:0 18px 36px rgba(0,0,0,.24);
+}
+.projects .project-gallery .project-photo::before {display:none!important}
+.projects .project-gallery .project-photo img {
+ object-fit:contain!important; height:100%!important; width:100%!important;
+ transition:transform .6s cubic-bezier(.2,.7,.2,1),filter .6s ease;
+}
+.projects .project-gallery .project-photo::after {
+ content:""; position:absolute; inset:48% 0 0;
+ background:linear-gradient(0deg,rgba(4,12,20,.88),transparent);
+ pointer-events:none; z-index:1;
+}
+.projects .project-caption {
+ position:absolute; bottom:0; left:0; right:0; z-index:2;
+ display:flex; align-items:center; gap:14px; padding:17px 19px;
+ color:white; font-size:11px; letter-spacing:.16em; font-weight:700;
+}
+.projects .project-line {height:1px; background:linear-gradient(90deg,#39b5e6,#1479b7); flex:1; opacity:.9}
+.projects .project-photo:hover {border-color:rgba(52,165,220,.5);box-shadow:0 14px 35px rgba(0,0,0,.35),0 0 20px rgba(19,121,183,.12)}
+.projects .project-photo:hover img {transform:scale(1.035);filter:brightness(1.07)}
+@media(max-width:600px){.projects .project-caption{padding:10px;font-size:9px}}
+
+/* ALTERNATIVA 2 — Galería flotante de arquitectura.
+   Solo sección proyectos, sin números ni degradados sobre fotos. */
+.projects {background:radial-gradient(ellipse at 67% 58%,#182a35 0%,#151a20 43%,#13171b 85%);overflow:hidden}
+.projects .project-gallery {gap:20px;align-items:center}
+.projects .project-gallery .project-photo {
+  position:relative; display:flex; align-items:center;justify-content:center;
+  background:transparent!important; border:0!important; border-radius:0!important;
+  box-shadow:none!important; overflow:visible!important; isolation:isolate;
+  padding:0 9px 14px;
+}
+.projects .project-gallery .project-photo::before {
+  content:""; display:block!important; position:absolute; z-index:-1;
+  inset:18px 0 9px; border-radius:6px;
+  background:radial-gradient(ellipse at center,rgba(40,151,199,.18),transparent 73%);
+  filter:blur(14px); pointer-events:none;
+}
+.projects .project-gallery .project-photo::after {
+  content:"";position:absolute;inset:auto 16% 2px!important;height:2px;
+  background:linear-gradient(90deg,transparent,#168cc3,transparent);
+  opacity:.72;pointer-events:none;z-index:2;
+}
+.projects .project-gallery .project-photo img {
+  height:calc(100% - 14px)!important;width:100%!important;object-fit:contain!important;
+  border-radius:3px; filter:none;
+  box-shadow:0 16px 28px rgba(0,0,0,.34);
+  transition:transform .5s ease,box-shadow .5s ease!important;
+}
+.projects .project-gallery .project-photo:hover img {
+  transform:translateY(-7px) scale(1.015)!important;
+  box-shadow:0 24px 38px rgba(0,0,0,.45),0 0 19px rgba(32,155,206,.14);
+}
+.projects .project-caption {display:none!important}
+@media (prefers-reduced-motion:reduce) {.projects .project-gallery .project-photo img{transition:none!important}}
+
+/* Galería ampliada: más superficie fotográfica, menos contorno. */
+.projects .project-gallery { gap: 10px !important; }
+.projects .project-gallery .project-photo {
+  height: 345px !important;
+  padding: 0 2px 4px !important;
+  cursor: zoom-in;
+  outline-offset: 5px;
+}
+.projects .project-gallery .project-photo img {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: contain !important;
+  box-shadow: 0 9px 22px rgba(0,0,0,.3) !important;
+}
+.projects .project-gallery .project-photo::after {bottom:-3px!important;}
+.projects .project-gallery .project-photo:focus-visible {outline:2px solid #48b9ee;}
+@media (max-width: 900px) {
+  .projects .project-gallery .project-photo {height:290px!important;}
+}
+@media (max-width: 600px) {
+  .projects .project-gallery {grid-template-columns:repeat(2,minmax(0,1fr));gap:8px!important;}
+  .projects .project-gallery .project-photo {height:235px!important;}
+}
+/* Visor fotográfico, modal accesible sin dependencias externas */
+.moreno-lightbox[hidden] {display:none!important;}
+.moreno-lightbox {position:fixed;inset:0;z-index:10000;background:rgba(3,9,16,.93);
+  display:flex;align-items:center;justify-content:center;padding:55px 66px;}
+.moreno-lightbox__figure {margin:0;display:flex;flex-direction:column;align-items:center;gap:12px;max-width:100%;}
+.moreno-lightbox__image {display:block;width:auto;height:auto;max-width:min(72vw,900px);max-height:76vh;
+  object-fit:contain;box-shadow:0 20px 65px rgba(0,0,0,.65);}
+.moreno-lightbox__caption {color:#d4e2e9;font:500 12px Montserrat,Arial,sans-serif;text-align:center;}
+.moreno-lightbox button {position:absolute;border:1px solid rgba(255,255,255,.32);background:rgba(12,25,37,.72);
+  color:white;cursor:pointer;display:grid;place-items:center;border-radius:50%;width:43px;height:43px;
+  font-size:28px;line-height:1;transition:background .2s;}
+.moreno-lightbox button:hover {background:#1379b7;}
+.moreno-lightbox__close {right:20px;top:20px;}
+.moreno-lightbox__prev {left:16px;top:50%;transform:translateY(-50%);}
+.moreno-lightbox__next {right:16px;top:50%;transform:translateY(-50%);}
+@media(max-width:600px) {.moreno-lightbox {padding:65px 44px;}
+ .moreno-lightbox__image {max-width:100%;max-height:72vh;}
+ .moreno-lightbox__prev {left:4px;}.moreno-lightbox__next {right:4px;}}
+@media(prefers-reduced-motion:reduce) {.moreno-lightbox button {transition:none;}}
+
+/* Cinco servicios: imágenes documentales completas y distribución adaptable */
+.featured-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+.featured-card > img{object-fit:contain!important;object-position:center;background:#fff;}
+@media(min-width:900px) and (max-width:1100px){.featured-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:700px){.featured-grid{grid-template-columns:1fr;}}
+
+/* Ajuste de prueba: mayor protagonismo de las cuatro fotografías originales. */
+.services .service-grid { margin-top: 48px; align-items: stretch; }
+.services .service-card { overflow: hidden; }
+.services .service-card > img {
+  display: block;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center center;
+  transition: transform .55s ease;
+}
+.services .service-card .service-icon,
+.services .service-card .service-body { position: relative; z-index: 1; }
+@media (hover: hover) and (pointer: fine) {
+  .services .service-card:hover > img { transform: scale(1.045); }
+}
+@media (max-width: 900px) {
+  .services .service-card > img { height: 265px; }
+}
+@media (max-width: 600px) {
+  .services .service-grid { margin-top: 32px; }
+  .services .service-card > img { height: 225px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .services .service-card > img { transition: none; }
+}
+
+/* Fotografías de VERTICALES: marcos iguales, sin bandas laterales angostas. */
+.projects .project-gallery {grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:14px!important;}
+.projects .project-gallery .project-photo {height:345px!important;padding:0!important;overflow:hidden!important;}
+.projects .project-gallery .project-photo img {width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;box-shadow:none!important;}
+@media(max-width:900px){.projects .project-gallery .project-photo{height:290px!important;}}
+@media(max-width:600px){.projects .project-gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important;}.projects .project-gallery .project-photo{height:245px!important;}.projects .project-gallery .project-photo:nth-child(3){display:none!important;}}
+
+/* V9: portada mas alta para dar protagonismo al collage */
+@media (min-width: 901px) { .hero { min-height: 720px; } }
+@media (min-width: 601px) and (max-width: 900px) { .hero { min-height: 670px; } }
+@media (max-width: 600px) { .hero { min-height: 620px; } }
+
+/* Carrusel horizontal de la sección Sobre Moreno Grupo */
+#nosotros .nosotros-slider{position:relative;width:100%;height:410px;overflow:hidden;background:#eef1f4}#nosotros .nosotros-slider img{width:100%;height:100%;object-fit:contain;display:block;transition:opacity .35s ease}#nosotros .nosotros-slider button{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:42px;border:0;background:rgba(7,41,68,.68);color:white;font-size:21px;cursor:pointer;z-index:2}#nosotros .nosotros-prev{left:0}#nosotros .nosotros-next{right:0}#nosotros .nosotros-slider button:hover{background:#1379b7}#nosotros .nosotros-dots{position:absolute;bottom:10px;right:12px;background:rgba(7,41,68,.7);color:white;font-size:11px;padding:3px 9px;border-radius:12px}@media(max-width:600px){#nosotros .nosotros-slider{height:300px}}
+
+/* V11: galería Nosotros sin marco, contador ni flechas superpuestas */
+#nosotros .nosotros-slider {height:390px;overflow:visible;background:transparent;display:flex;align-items:center;justify-content:center;}
+#nosotros .nosotros-slider img {width:100%;height:100%;object-fit:contain;background:transparent;border:0;box-shadow:none;}
+#nosotros .nosotros-dots {display:none !important;}
+#nosotros .nosotros-slider button {width:30px;height:30px;border:1px solid #d8dde1;border-radius:50%;background:#f8f9fa;color:#8b969e;font-size:15px;box-shadow:none;opacity:.85;transition:background .2s,color .2s,opacity .2s;}
+#nosotros .nosotros-slider button:hover {background:#e9edf0;color:#4e616f;opacity:1;}
+#nosotros .nosotros-prev {left:-38px;}
+#nosotros .nosotros-next {right:-38px;}
+@media(max-width:900px){#nosotros .nosotros-prev{left:-16px}#nosotros .nosotros-next{right:-16px}}
+@media(max-width:600px){#nosotros .nosotros-slider{height:280px;margin:0 22px}#nosotros .nosotros-prev{left:-28px}#nosotros .nosotros-next{right:-28px}}
+
+/* V13: portada más amplia para mostrar mayor superficie del collage,
+   sin modificar el contenido ni las demás secciones. */
+@media (min-width: 901px) { .hero { min-height: 880px; } }
+@media (min-width: 601px) and (max-width: 900px) { .hero { min-height: 790px; } }
+@media (max-width: 600px) { .hero { min-height: 690px; } }
