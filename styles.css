@@ -368,3 +368,22 @@ main > section.neon-lower:nth-of-type(even):not(#contacto)::after {left:auto;rig
 @media (min-width: 901px) { .hero { min-height: 880px; } }
 @media (min-width: 601px) and (max-width: 900px) { .hero { min-height: 790px; } }
 @media (max-width: 600px) { .hero { min-height: 690px; } }
+
+/* Banner de fortalezas Moreno Grupo — versión renovada */
+.reasons{position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 90%,#0b365c 0%,#062847 62%,#05233e 100%);color:#fff;padding:55px 0 67px}
+.reasons-inner{position:relative;z-index:1;max-width:1360px;width:min(1360px,calc(100% - 64px))}
+.reasons-heading{text-align:center;margin-bottom:50px}
+.reasons-heading .section-kicker{color:#27b9f4;font-size:12px;letter-spacing:2px;margin:0 0 18px}
+.reasons-heading h2{font-size:clamp(26px,3vw,42px);font-weight:500;line-height:1.24;letter-spacing:-1px;margin:0}
+.reasons-heading h2 span{color:#31baf2}
+.reasons-accent{width:90px;height:2px;background:#29baf4;margin:26px auto 0;box-shadow:0 0 12px #28baf466}
+.reasons-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));align-items:stretch}
+.reasons-grid .reason{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:19px;min-width:0;padding:4px 13px;text-align:center;position:relative;font-size:clamp(10px,1.1vw,14px);line-height:1.45;font-weight:700}
+.reasons-grid .reason+.reason:before{content:"";position:absolute;left:0;top:27px;bottom:8px;width:1px;background:#29baf4;opacity:.7}
+.reasons-grid .reason svg{width:59px;height:59px;flex-shrink:0;color:#68c8ff;filter:drop-shadow(0 0 5px #2db9f43d)}
+@media(max-width:950px){.reasons-grid{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:34px}.reasons-grid .reason:nth-child(4):before{display:none}.reasons-heading{margin-bottom:38px}}
+@media(max-width:600px){.reasons{padding:46px 0 50px}.reasons-inner{width:calc(100% - 28px)}.reasons-heading h2{font-size:26px}.reasons-heading h2 br{display:none}.reasons-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:29px}.reasons-grid .reason{font-size:11px;gap:12px;padding:3px 8px}.reasons-grid .reason svg{width:46px;height:46px}.reasons-grid .reason:nth-child(odd):before{display:none}.reasons-grid .reason:nth-child(4):before{display:block}}
+
+/* Banner exacto proporcionado por el cliente: sustituye la sección anterior */
+.reasons.reasons-image{padding:0!important;margin:0!important;background:#062847!important;overflow:hidden}
+.reasons.reasons-image img{display:block;width:100%;height:auto;max-width:none;margin:0 auto}
